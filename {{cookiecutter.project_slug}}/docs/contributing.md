@@ -9,7 +9,7 @@ You can contribute in many ways:
 
 ### Report Bugs
 
-Report bugs at <https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/issues>.
+Report bugs at <https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo_name}}/issues>.
 
 If you are reporting a bug, please include:
 
@@ -36,7 +36,7 @@ in docstrings, or even on the web in blog posts, articles, and such.
 ### Submit Feedback
 
 The best way to send feedback is to file an issue at
-<https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/issues>.
+<https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.github_repo_name}}/issues>.
 
 If you are proposing a feature:
 
@@ -46,14 +46,14 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up {{cookiecutter.project_slug }} for local development.
+Ready to contribute? Here's how to set up {{cookiecutter.github_repo_name }} for local development.
 
-1.  Fork the {{ cookiecutter.project_slug}} repo on GitHub.
+1.  Fork the {{ cookiecutter.github_repo_name}} repo on GitHub.
 
 2.  Clone your fork locally:
 
     ```shell
-    $ git clone git@github.com:your_name_here/{{ cookiecutter.project_slug }}.git
+    $ git clone git@github.com:your_name_here/{{ cookiecutter.github_repo_name }}.git
     ```
 
 3.  Install your local copy into a virtualenv. Assuming you have
@@ -61,8 +61,8 @@ Ready to contribute? Here's how to set up {{cookiecutter.project_slug }} for loc
     local development:
 
     ```shell
-    $ mkvirtualenv {{ cookiecutter.project_slug }}
-    $ cd {{ cookiecutter.project_slug }}/
+    $ mkvirtualenv {{ cookiecutter.github_repo_name }}
+    $ cd {{ cookiecutter.github_repo_name }}/
     $ python setup.py develop
     ```
 
@@ -78,7 +78,7 @@ Ready to contribute? Here's how to set up {{cookiecutter.project_slug }} for loc
     and the tests, including testing other Python versions with tox:
 
     ```shell
-    $ flake8 {{ cookiecutter.project_slug }} tests
+    $ flake8 {{ cookiecutter.github_repo_name }} tests
     $ python setup.py test or pytest
     $ tox
     ```
@@ -104,5 +104,5 @@ Before you submit a pull request, check that it meets these guidelines:
     Put your new functionality into a function with a docstring, and add
     the feature to the list in README.rst.
 3.  The pull request should work for Python 3.5, 3.6, 3.7 and 3.8, and
-    for PyPy. Check <https://github.com/{{cookiecutter.github_username }}/{{ cookiecutter.project_slug}}/pull_requests> and make sure that the tests pass for all
+    for PyPy. Check <https://github.com/{{cookiecutter.github_username }}/{{ cookiecutter.github_repo_name}}/pull_requests> and make sure that the tests pass for all
     supported Python versions.

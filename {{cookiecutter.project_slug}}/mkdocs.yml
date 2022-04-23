@@ -1,8 +1,8 @@
-site_name: {{ cookiecutter.project_slug }}
+site_name: {{ cookiecutter.github_repo_name }}
 
-site_url: https://{{ cookiecutter.github_username }}.github.io/{{ cookiecutter.project_slug }}
+site_url: https://{{ cookiecutter.github_username }}.github.io/{{ cookiecutter.github_repo_name }}
 
-repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+repo_url: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo_name }}
 
 theme:
     palette:
@@ -47,6 +47,6 @@ nav:
     - Contributing: contributing.md
     - FAQ: faq.md
     - Changelog: changelog.md
-    - Report Issues: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}/issues
+    - Report Issues: https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo_name }}/issues
     - API Reference:
           - {{ cookiecutter.project_slug }} module: {{ cookiecutter.project_slug }}.md

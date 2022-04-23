@@ -5,7 +5,7 @@
 To install {{ cookiecutter.project_name }}, run this command in your terminal:
 
 ```
-pip install {{ cookiecutter.project_slug }}
+pip install {{ cookiecutter.github_repo_name }}
 ```
 
 This is the preferred method to install {{ cookiecutter.project_name }}, as it will always install the most recent stable release.
@@ -19,5 +19,5 @@ The sources for {{ cookiecutter.project_name }} can be downloaded from the Githu
 You can clone the public repository:
 
 ```
-git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}
+git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo_name }}
 ```
