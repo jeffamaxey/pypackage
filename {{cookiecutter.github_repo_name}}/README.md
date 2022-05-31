@@ -4,8 +4,6 @@
 
 {% if is_open_source %}
 [![image](https://img.shields.io/pypi/v/{{ cookiecutter.github_repo_name }}.svg)](https://pypi.python.org/pypi/{{ cookiecutter.github_repo_name }})
-{%- endif %}
-{% if is_open_source %}
 [![image](https://img.shields.io/conda/vn/conda-forge/{{ cookiecutter.github_repo_name }}.svg)](https://anaconda.org/conda-forge/{{ cookiecutter.github_repo_name }})
 {%- endif %}
 {% if cookiecutter.add_pyup_badge == 'y' %}
