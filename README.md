@@ -31,6 +31,7 @@ Generate a Python package project:
 Then:
 
 -   Create a repo and put it there.
+-   Go to [GitHub Settings - Workflow permissions](https://github.com/giswqs/mapwidget/settings/actions) and enable Read and write permissions for GitHub Actions.
 -   Install the dev requirements into a virtualenv. (`pip install -r requirements_dev.txt`)
 -   [Register](https://packaging.python.org/tutorials/packaging-projects/#uploading-the-distribution-archives) your project with PyPI.
 -   Release your package by pushing a new tag to master.
@@ -55,8 +56,6 @@ Then:
 **4. Introduction to Python package file structure**
 
 [![](http://img.youtube.com/vi/0eLt_O6sIYU/0.jpg)](http://www.youtube.com/watch?v=0eLt_O6sIYU)
-
-
 
 ## Not Exactly What You Want?
 
