@@ -25,5 +25,5 @@
         "Not open source"
     ],
     "github_default_branch": ["main", "master"],
-    "_copy_without_render": [".github/workflows/*.yml", "docs/overrides/main.html"]
+    "_copy_without_render": ["docs/overrides/main.html"]
 }

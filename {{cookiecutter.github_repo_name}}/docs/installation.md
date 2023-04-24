@@ -14,10 +14,8 @@ If you don't have [pip](https://pip.pypa.io) installed, this [Python installatio
 
 ## From sources
 
-The sources for {{ cookiecutter.project_name }} can be downloaded from the Github repo.
-
-You can clone the public repository:
+To install {{ cookiecutter.project_name }} from sources, run this command in your terminal:
 
 ```
-git clone git://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo_name }}
+pip install git+https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.github_repo_name }}
 ```
