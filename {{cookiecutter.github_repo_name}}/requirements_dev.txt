@@ -1,3 +1,5 @@
+black
+black[jupyter]
 pip
 bump2version
 wheel
@@ -7,7 +9,6 @@ tox
 coverage
 Sphinx
 twine
-grip
 {% if cookiecutter.command_line_interface|lower == 'click' -%}
 Click{% endif %}
 {% if cookiecutter.use_pytest == 'y' -%}
