@@ -32,6 +32,10 @@ jobs:
             - name: PKG-TEST
               run: |
                   python -m unittest discover tests/
+            - name: Build docs
+              run: |
+                  pip install -r requirements_docs.txt
+                  mkdocs build
             # - name: Deploy to Netlify
             #   uses: nwtgck/actions-netlify@v2.0
             #   with:
